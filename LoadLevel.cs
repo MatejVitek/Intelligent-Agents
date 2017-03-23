@@ -46,4 +46,8 @@ public class LoadLevel : MonoBehaviour {
 		foreach (GameObject button in alternative)
 			button.SetActive (false);
 	}
+
+	public void Quit() {
+		Application.Quit();
+	}
 }
